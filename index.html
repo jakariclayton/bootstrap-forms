@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+      <meta charset= "utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link href ="css/bootstrap.min.css" rel="stylesheet">
+      <title>Quiz about Barack Obama</title>
+  </head>
+
+  <body>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1> Barack Obama Quiz: With Bootstrap 4 form styles</h1>
+
+            <p> Below is a quiz with questions about our 44th President, Barack Obama.</p>
+
+            <p>
+              <a href="https://en.wikipedia.org/wiki/Barack_Obama">Wikipedia article about Barack Obama </a>
+            </p>
+
+            <form>
+                <div class="form-group">
+                  <label class="form-control-label" for="state">Where was Barack Obama born?</label>
+                  <input class="form-control" type="text" name="state" id="state">
+                </div>
+                <div class="form-group">
+                  <label for="year">What year was Barack Obama born?</label>
+                  <input class="form-control" type="text" name="year" id="year">
+                </div>
+
+                <div class="form-group">
+                  <label class="form-control-label" for="opinion">How would you assess the presidency of Barack Obama?</label>
+                  <textarea class="form-control" name="opinion" id="opinion"></textarea>
+                </div>
+
+
+              <div class="form-group">
+                <label>Who was the President before Barack Obama? (choose only one)</label>
+                <div>
+                  <label>
+                    <input type= "radio" name= "former" value= "Jimmy Carter"> Jimmy Carter
+                  </label>
+                </div>
+                <div>
+                  <label>
+                    <input type= "radio" name= "former" value= "George W. Bush"> George W. Bush
+                  </label>
+                </div>
+                <div>
+                  <label>
+                    <input type= "radio" name= "former" value= "Donald Trump"> Donald Trump
+                  </label>
+                </div>
+                <div>
+                  <label>
+                    <input type= "radio" name= "former" value= "George Washington"> George Washingtion
+                  </label>
+                </div>
+              </div>
+
+
+              <div class="form-group">
+                <label>What were some of the policies that President Obama spoke on?(Check all that apply)</label>
+                <div>
+                  <label>
+                    <input type= "checkbox" name= "policies" value= "Economics"> Economics
+                  </label>
+                </div>
+                <div>
+                  <label>
+                    <input type= "checkbox" name= "policies" value= "Domestic"> Domestic
+                  </label>
+                </div>
+                <div>
+                  <label class>
+                    <input type= "checkbox" name= "policies" value= "Environmental"> Environmental
+                  </label>
+                </div>
+                <div>
+                  <label>
+                    <input type= "checkbox" name= "policies" value= "Education"> Education
+                  </label>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label>Who is the wife of Barack Obama?</label>
+                <div>
+                    <select name="Wife" id= "wife">
+                      <option value= "Michelle">Michelle</option>
+                      <option value= "Tony">Tony</option>
+                      <option value= "Monica">Monica</option>
+                      <option value= "Audrey">Audrey</option>
+                      <option value= "Sabrina">Sabrina</option>
+                      <option value= "Jillian">Jillian</option>
+                    </select>
+                </div>
+              </div>
+
+              <div>
+                  <button type="button" class="btn btn-success" value= "Done">Done</button>
+                  <button type="button" class="btn btn-danger" value= "Redo">Redo</button>
+              </div>
+            </form>
+
+          </div>
+        </div>
+      </div>
+
+  </body>
+</html>
